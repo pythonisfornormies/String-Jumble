@@ -30,7 +30,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
 a = input("Please enter a string of text (the bigger the better): ")
-print('You entered "'+a+'". Now jumble it:"')
+print('You entered "'+a+'". Now jumble it:')
 
 aa = a[::-1]
 aaa = " ".join(a.split(" ")[::-1])
