@@ -1,7 +1,10 @@
 """
 stringjumble.py
 Author: Kai Darrow
-Credit: <sources>
+Credit: http://stackoverflow.com/questions/13978387/how-can-i-get-python-to-print-an-entered-message-backwards
+http://stackoverflow.com/questions/9050355/python-using-quotation-marks-inside-quotation-marks
+http://stackoverflow.com/questions/509211/explain-pythons-slice-notation
+http://stackoverflow.com/questions/34128842/how-to-reverse-the-order-of-the-words-string-using-python
 
 Assignment:
 
@@ -27,5 +30,13 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
 a = input("Please enter a string of text (the bigger the better): ")
-print("You entered" a ". Now jumble it:")
+print('You entered "'+a+'". Now jumble it:"')
 
+aa = a[::-1]
+aaa = " ".join(a.split(" ")[::-1])
+aaaa = " ".join(a.split(" ")[::-1])
+aaab = aaaa[::-1]
+
+print(aa)
+print(aaa)
+print(aaab)
